@@ -11,7 +11,7 @@ Search = React.createClass({
         searchingText: searchingText
       });
     };
-    
+
     render: function() {
       var styles = {
           fontSize: '1.5em',
