@@ -1,0 +1,17 @@
+{
+  "name": "14.8_wyszukiwarka_gifow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server",
+    "sass:watch": "node-sass ./templates/sass/ -wo ./templates/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.0"
+  }
+}
