@@ -1,4 +1,4 @@
-var GIPHY_API_URL = 'http://api.giphy.com';
+var GIPHY_API_URL = 'http://api.giphy.com/';
 var GIPHY_PUB_KEY = 'xNEbJNreq63SELIRSP6e0Y3N3jnasbV3';
 
 
@@ -44,7 +44,7 @@ App = React.createClass({
       //3.3 We're calling the entire request for server and sending this request
       xhr.open('GET', url);
       xhr.onload = function(){
-        if(xhr.status === 200) {
+        if (xhr.status === 200) {
           var data = JSON.parse(xhr.responseText).data;
           //3.4. In the response object we have an object with data. Here we're are unwrapping this data into variable called data in order to not to have to write response.data every time
           var gif = {
